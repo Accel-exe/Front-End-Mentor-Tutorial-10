@@ -1,0 +1,15 @@
+@media screen and (max-width:1024px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .container {
+        grid-template-columns: auto;
+        grid-row: auto auto auto auto;
+    }
+
+    .perfil {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
